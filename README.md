@@ -6,7 +6,7 @@
 
 
 
-The other DLTs are downloaded with Python3 code
+The DLTs are downloaded with Python3 code (for only Bitcoin there are two options)
 
 ### Examples:
 
@@ -21,7 +21,7 @@ to download DLT transactions in a certain time interval:
 ./main.sh -dlt zec -start "2020-04-01-00:00:00" -end "2020-04-01-00:01:00" -res 'res/zec.net'
 ```
 
-For Bitcoin only, a previous version of the sofftware is still available, which might turn out to be faster. To download in this alternative way
+For Bitcoin only, a previous version of the software is still available, which might turn out to be faster. Files for downloading Bitcoin transactions in the alternative way are in src folder. To download in this alternative way:
 ```
 ./main.sh -dlt btc2 -start "2020-04-01" -end "2020-04-01" 
 ```
