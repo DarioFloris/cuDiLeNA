@@ -1,6 +1,6 @@
 # DiLeNA
 
-This software is able to grab the transactions stored in the distributed ledger of different DLTs, create an abstraction of a network and then measure some important related metrics
+This software is able to grab the transactions stored in the distributed ledger of different DLTs, create an abstraction of a network and then measure some important related metrics. The software was developed by AnaNSi research group (https://pads.cs.unibo.it/doku.php?id=pads:dilena).
 
  DiLeNA is modular and it is composed of two main components:
 
