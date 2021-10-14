@@ -1,5 +1,13 @@
 # DiLeNA
 
+This software is able to grab the transactions stored in the distributed ledger of different DLTs, create an abstraction of a network and then measure some important related metrics
+
+ DiLeNA is modular and it is composed of two main components:
+
+*    Graph Generator: it is in charge of downloading the transactions of the examined DLT, generated during the time interval of interest. Then, a directed graph is built, that represents the interactions among the nodes. The vertices of the graph correspond to the addresses in the DLT and, for each transaction, an edge directed from the sender to the recipient of the transactions is made (if not already existing).
+*    Graph Analyzer: this module is in charge of calculating the typical metrics related to the obtained graph. Among the others, the tool is able to measure the degree distribution, network clustering coefficient, as well as to identify the main component and some of its main metrics, such as the average shortest path. Moreover, the tool computes if the network is a small world, by comparing it with a corresponding random graph (with the same amount of nodes and edges).
+
+
 ## Graph Downloader: 
 
 ### Usage Bitcoin 
