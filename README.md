@@ -20,7 +20,7 @@ python main.py -dlt eth -start "YYYY-MM-DD" -end "YYYY-MM-DD" [options]
 
 ### Ethereum 
 
-Downloading Ethereum blocks requires an APIKEY from `Etherscan.io`.
+Downloading Ethereum blocks requires an APIKEY from `Etherscan.io`.\
 Store the APIKEY in `graph-downloader/.env`
 
 ------------
