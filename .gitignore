@@ -1,6 +1,7 @@
 graphs/*
 !graphs/ethereum/
 !graphs/ethereum/2016-10-01_2016-10-01
-graph-downloader/__pycache__
 graph-analyzer
-.env
+
+graph-downloader/__pycache__
+graph-downloader/.env
